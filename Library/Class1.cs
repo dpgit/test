@@ -2,27 +2,26 @@
  * Utworzone przez SharpDevelop.
  * Użytkownik: USER
  * Data: 2010-08-08
- * Godzina: 12:50
+ * Godzina: 23:44
  * 
  * Do zmiany tego szablonu użyj Narzędzia | Opcje | Kodowanie | Edycja Nagłówków Standardowych.
  */
 using System;
-using System.Collections.Generic;
 
-namespace Library 
+namespace Library
 {
-
-	
 	/// <summary>
-	/// Description of MyClass.
+	/// Description of Class1.
 	/// </summary>
-	public class MyClass : ILibraryInterface
+	public class Class1 : ILibraryInterface
 	{
+		public Class1()
+		{
+		}
+		
 		public void run()
 		{
-			Console.WriteLine(this.ToString());
+			throw new NotImplementedException();
 		}
-	}	
-	
-
+	}
 }
